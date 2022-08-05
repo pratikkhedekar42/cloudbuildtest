@@ -1,4 +1,6 @@
 steps:
-  - name: 'gcr.io/cloud-builders/docker'
-  options:
-    logging: CLOUD_LOGGING_ONLY
+- name: 'gcr.io/cloud-builders/docker'
+  args: [ 'build', '-t', 'gcr.io/internal-test-prj-ly/myimage', '.' ]
+logsBucket: 'gs://build-logs-cloudbuild7'
+options:
+  logging: GCS_ONLY
