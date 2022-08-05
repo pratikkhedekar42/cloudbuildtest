@@ -1,4 +1,4 @@
-logsBucket: "gs://build-logs-cloudbuild8"
+logsBucket: "gs://build-logs-cloudbuild9"
 options: 
   logging: GCS_ONLY
 steps: 
