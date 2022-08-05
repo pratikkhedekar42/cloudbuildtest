@@ -4,9 +4,6 @@
 # logsBucket: 'gs://build-logs-cloudbuild8'
 # options:
 #   logging: GCS_ONLY
-      
-# options:
-#   logging: CLOUD_LOGGING_ONLY
 
 logsBucket: "gs://build-logs-cloudbuild8"
 options: 
