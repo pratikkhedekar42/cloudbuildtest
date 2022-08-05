@@ -1,6 +1,5 @@
 steps:
 - name: 'bash'
   args: ['echo', 'Hello world!']
-logsBucket: 'gs://build-logs-cloudbuild7'
 options:
-  logging: GCS_ONLY
+  logging: NONE
